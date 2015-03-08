@@ -21,11 +21,9 @@ fellow_hashes = fellow_rows.map do |fellow_row|
 
 	logo_img, company_td, student_td, university_td = row_data 
 
-
-	binding.pry
-
+	# parse from the row
+	student_name = defined?(student_td.children.name) ? student_td.children.children.text : student_td.children.text
 	company_name = company_td.children.children.text
-
 	university_name = university_td.children.text
 
 	poke_number += 1 
@@ -35,7 +33,6 @@ fellow_hashes = fellow_rows.map do |fellow_row|
 		name: student_name,
 		university: university_name
 	}
-
 end 
 
 binding.pry 
