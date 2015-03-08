@@ -4,6 +4,7 @@ require 'pry'
 require 'json'
 require 'awesome_print'
 require 'sinatra'
+require 'httparty'
 
 response_2010 = open 'http://hackny.org/a/2010/06/announcing-the-2010-hackny-fellows/'
 response_2011 = open 'http://hackny.org/a/2011/06/class-of-2011-hackny-fellows/'
@@ -131,7 +132,9 @@ fellow_2010 = fellow_hashes_2010.sort_by do |fellow|
 end
 fellow_2010 = fellow_2010.map do |fellow|
 	poke_number += 1
-	fellow.merge!("number" => poke_number)
+	# fellow.merge!("number" => poke_number)
+	response = HTTParty.get('http://pokeapi.co/api/v1/pokemon/' + poke_number.to_s + '/');
+	fellow.merge!("pokemon" => response["name"])
 end
 
 fellow_2011 = fellow_hashes_2011.sort_by do |fellow|
@@ -139,7 +142,9 @@ fellow_2011 = fellow_hashes_2011.sort_by do |fellow|
 end
 fellow_2011 = fellow_2011.map do |fellow|
 	poke_number += 1
-	fellow.merge!("number" => poke_number)
+	# fellow.merge!("number" => poke_number)
+	response = HTTParty.get('http://pokeapi.co/api/v1/pokemon/' + poke_number.to_s + '/');
+	fellow.merge!("pokemon" => response["name"])
 end
 
 fellow_2012 = fellow_hashes_2012.sort_by do |fellow|
@@ -147,7 +152,9 @@ fellow_2012 = fellow_hashes_2012.sort_by do |fellow|
 end
 fellow_2012 = fellow_2012.map do |fellow|
 	poke_number += 1
-	fellow.merge!("number" => poke_number)
+	# fellow.merge!("number" => poke_number)
+	response = HTTParty.get('http://pokeapi.co/api/v1/pokemon/' + poke_number.to_s + '/');
+	fellow.merge!("pokemon" => response["name"])
 end
 
 fellow_2013 = fellow_hashes_2013.sort_by do |fellow|
@@ -155,7 +162,9 @@ fellow_2013 = fellow_hashes_2013.sort_by do |fellow|
 end
 fellow_2013 = fellow_2013.map do |fellow|
 	poke_number += 1
-	fellow.merge!("number" => poke_number)
+	# fellow.merge!("number" => poke_number)
+	response = HTTParty.get('http://pokeapi.co/api/v1/pokemon/' + poke_number.to_s + '/');
+	fellow.merge!("pokemon" => response["name"])
 end
 
 fellow_2014 = fellow_hashes_2014.sort_by do |fellow|
@@ -163,7 +172,9 @@ fellow_2014 = fellow_hashes_2014.sort_by do |fellow|
 end
 fellow_2014 = fellow_2014.map do |fellow|
 	poke_number += 1
-	fellow.merge!("number" => poke_number)
+	# fellow.merge!("number" => poke_number)
+	response = HTTParty.get('http://pokeapi.co/api/v1/pokemon/' + poke_number.to_s + '/');
+	fellow.merge!("pokemon" => response["name"])
 end
 
 all_fellows = fellow_2010.concat(fellow_2011).concat(fellow_2012).concat(fellow_2013).concat(fellow_2014)
