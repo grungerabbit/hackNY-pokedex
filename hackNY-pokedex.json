@@ -1,0 +1,750 @@
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+hackNY Pokédex - generated JSON
+version 1.0.0 built at hackNY Spring 2015
+by Cheryl Wu (grungerabbit.com), hackNY Fellow 2012
+
+cohorts 2010 * 2011 * 2012 * 2013 * 2014
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
+
+[  
+   {  
+      "name":"Andres Campanella",
+      "university":"New York University",
+      "pokemon":"Bulbasaur"
+   },
+   {  
+      "name":"Anil Raj",
+      "university":"Columbia University",
+      "pokemon":"Ivysaur"
+   },
+   {  
+      "name":"Chris Triolo",
+      "university":"Princeton University",
+      "pokemon":"Venusaur"
+   },
+   {  
+      "name":"Clement Huyghebaert",
+      "university":"Columbia University",
+      "pokemon":"Charmander"
+   },
+   {  
+      "name":"Ian Jennings",
+      "university":"Rutgers University",
+      "pokemon":"Charmeleon"
+   },
+   {  
+      "name":"Jacob Hickey",
+      "university":"New York University",
+      "pokemon":"Charizard"
+   },
+   {  
+      "name":"Julie Dinerman",
+      "university":"Columbia University",
+      "pokemon":"Squirtle"
+   },
+   {  
+      "name":"Max Stoller",
+      "university":"New York University",
+      "pokemon":"Wartortle"
+   },
+   {  
+      "name":"Nolan Filter",
+      "university":"New York University",
+      "pokemon":"Blastoise"
+   },
+   {  
+      "name":"Stuart Partin",
+      "university":"Columbia University",
+      "pokemon":"Caterpie"
+   },
+   {  
+      "name":"Tal Safran",
+      "university":"New York University",
+      "pokemon":"Metapod"
+   },
+   {  
+      "name":"Tengchao Zhou",
+      "university":"New York University",
+      "pokemon":"Butterfree"
+   },
+   {  
+      "name":"Aaron Joseph Marks",
+      "university":"New York University",
+      "pokemon":"Weedle"
+   },
+   {  
+      "name":"Abe Stanway",
+      "university":"Rutgers University",
+      "pokemon":"Kakuna"
+   },
+   {  
+      "name":"Aditya Mukerjee",
+      "university":"Columbia University",
+      "pokemon":"Beedrill"
+   },
+   {  
+      "name":"Akarshan Kumar",
+      "university":"Princeton University",
+      "pokemon":"Pidgey"
+   },
+   {  
+      "name":"Alexander Pease",
+      "university":"Princeton University",
+      "pokemon":"Pidgeotto"
+   },
+   {  
+      "name":"Andrew Chien",
+      "university":"Cornell University",
+      "pokemon":"Pidgeot"
+   },
+   {  
+      "name":"Andrew Flockhart",
+      "university":"New York University",
+      "pokemon":"Rattata"
+   },
+   {  
+      "name":"Andrew Hitti",
+      "university":"Columbia University",
+      "pokemon":"Raticate"
+   },
+   {  
+      "name":"Andrew Lott",
+      "university":"New York University",
+      "pokemon":"Spearow"
+   },
+   {  
+      "name":"Cemre Gungor",
+      "university":"Polytechnic Institute of NYU",
+      "pokemon":"Fearow"
+   },
+   {  
+      "name":"Charles Cary",
+      "university":"University of Chicago",
+      "pokemon":"Ekans"
+   },
+   {  
+      "name":"Cole Ian Diamond",
+      "university":"Columbia University Engineering",
+      "pokemon":"Arbok"
+   },
+   {  
+      "name":"Conor Branagan",
+      "university":"SUNY New Paltz",
+      "pokemon":"Pikachu"
+   },
+   {  
+      "name":"David Wang",
+      "university":"University of Pennsylvania",
+      "pokemon":"Raichu"
+   },
+   {  
+      "name":"Eitan Adler",
+      "university":"SUNY Binghamton",
+      "pokemon":"Sandshrew"
+   },
+   {  
+      "name":"Grant Kot",
+      "university":"The Juilliard School",
+      "pokemon":"Sandslash"
+   },
+   {  
+      "name":"Jared Wyatt",
+      "university":"New York University",
+      "pokemon":"Nidoran-f"
+   },
+   {  
+      "name":"Jason Gorelick",
+      "university":"Brown University",
+      "pokemon":"Nidorina"
+   },
+   {  
+      "name":"Joey Dong",
+      "university":"Rutgers University",
+      "pokemon":"Nidoqueen"
+   },
+   {  
+      "name":"Karen Li",
+      "university":"New York University",
+      "pokemon":"Nidoran-m"
+   },
+   {  
+      "name":"Kathy Sun",
+      "university":"Columbia University",
+      "pokemon":"Nidorino"
+   },
+   {  
+      "name":"Kelsey Lee",
+      "university":"New York University",
+      "pokemon":"Nidoking"
+   },
+   {  
+      "name":"Kui Tang",
+      "university":"Columbia University",
+      "pokemon":"Clefairy"
+   },
+   {  
+      "name":"Matt Dannenberg",
+      "university":"McGill University",
+      "pokemon":"Clefable"
+   },
+   {  
+      "name":"Michael Bartnett",
+      "university":"New York University",
+      "pokemon":"Vulpix"
+   },
+   {  
+      "name":"Misha Ponizil",
+      "university":"New York University",
+      "pokemon":"Ninetales"
+   },
+   {  
+      "name":"Nick Zaillian",
+      "university":"Columbia University",
+      "pokemon":"Jigglypuff"
+   },
+   {  
+      "name":"Nikola Chonkov",
+      "university":"Yale University",
+      "pokemon":"Wigglytuff"
+   },
+   {  
+      "name":"Rahul Sheth",
+      "university":"Stanford University",
+      "pokemon":"Zubat"
+   },
+   {  
+      "name":"Randall Hunt",
+      "university":"Western Carolina University",
+      "pokemon":"Golbat"
+   },
+   {  
+      "name":"Sameen Jalal",
+      "university":"Rutgers University",
+      "pokemon":"Oddish"
+   },
+   {  
+      "name":"Tami Evnin",
+      "university":"Parsons The New School for Design",
+      "pokemon":"Gloom"
+   },
+   {  
+      "name":"Trisha Kothari",
+      "university":"University of Pennsylvania",
+      "pokemon":"Vileplume"
+   },
+   {  
+      "name":"Vien Duong Dinh",
+      "university":"Stanford University",
+      "pokemon":"Paras"
+   },
+   {  
+      "name":"Zach Cimafonte",
+      "university":"University at Buffalo",
+      "pokemon":"Parasect"
+   },
+   {  
+      "name":"Amy Quispe",
+      "university":"Carnegie Mellon University",
+      "pokemon":"Venonat"
+   },
+   {  
+      "name":"Cheryl Wu",
+      "university":"New York University",
+      "pokemon":"Venomoth"
+   },
+   {  
+      "name":"Daniel Alabi",
+      "university":"Carleton College",
+      "pokemon":"Diglett"
+   },
+   {  
+      "name":"Daniel Lobato Garcia",
+      "university":"University of California Irvine",
+      "pokemon":"Dugtrio"
+   },
+   {  
+      "name":"Daniel Saewitz",
+      "university":"Syracuse University",
+      "pokemon":"Meowth"
+   },
+   {  
+      "name":"David Coss",
+      "university":"New York University ",
+      "pokemon":"Persian"
+   },
+   {  
+      "name":"Devon Peticolas",
+      "university":"Rutgers University",
+      "pokemon":"Psyduck"
+   },
+   {  
+      "name":"Emma Ziegellaub Eichler",
+      "university":"Columbia University",
+      "pokemon":"Golduck"
+   },
+   {  
+      "name":"Emmett Butler",
+      "university":"New York University",
+      "pokemon":"Mankey"
+   },
+   {  
+      "name":"Gerard O’Neill ",
+      "university":"Rutgers University",
+      "pokemon":"Primeape"
+   },
+   {  
+      "name":"Jason Strauss ",
+      "university":"Massachusetts Institute of Technology",
+      "pokemon":"Growlithe"
+   },
+   {  
+      "name":"Jason Wright",
+      "university":"Cornell University",
+      "pokemon":"Arcanine"
+   },
+   {  
+      "name":"Jennifer Rubinovitz ",
+      "university":"Rutgers University ",
+      "pokemon":"Poliwag"
+   },
+   {  
+      "name":"Jesse Pollak",
+      "university":"Pomona College",
+      "pokemon":"Poliwhirl"
+   },
+   {  
+      "name":"Joel Kemp",
+      "university":"City University of New York",
+      "pokemon":"Poliwrath"
+   },
+   {  
+      "name":"John O’Neill",
+      "university":"Princeton University",
+      "pokemon":"Abra"
+   },
+   {  
+      "name":"Justin Hines",
+      "university":"Columbia University ",
+      "pokemon":"Kadabra"
+   },
+   {  
+      "name":"Matt Wetmore",
+      "university":"McGill University",
+      "pokemon":"Alakazam"
+   },
+   {  
+      "name":"Matthew Bunday",
+      "university":"University of Minnesota",
+      "pokemon":"Machop"
+   },
+   {  
+      "name":"Michael Yang",
+      "university":"Columbia University",
+      "pokemon":"Machoke"
+   },
+   {  
+      "name":"Oliver Song",
+      "university":"Massachusetts Institute of Technology",
+      "pokemon":"Machamp"
+   },
+   {  
+      "name":"Pete Vilter",
+      "university":"University of Chicago",
+      "pokemon":"Bellsprout"
+   },
+   {  
+      "name":"Phillip Quiza",
+      "university":"Rutgers University",
+      "pokemon":"Weepinbell"
+   },
+   {  
+      "name":"Robert Wertman",
+      "university":"Western Carolina University",
+      "pokemon":"Victreebel"
+   },
+   {  
+      "name":"Samuel Stern",
+      "university":"University of Pennsylvania",
+      "pokemon":"Tentacool"
+   },
+   {  
+      "name":"Sean Gransee",
+      "university":"Northwestern University",
+      "pokemon":"Tentacruel"
+   },
+   {  
+      "name":"Sean Hogan",
+      "university":"University of Chicago",
+      "pokemon":"Geodude"
+   },
+   {  
+      "name":"Sophie Chou",
+      "university":"Columbia University ",
+      "pokemon":"Graveler"
+   },
+   {  
+      "name":"Terence Nip",
+      "university":"Syracuse University",
+      "pokemon":"Golem"
+   },
+   {  
+      "name":"Varun Singh",
+      "university":"Brown University",
+      "pokemon":"Ponyta"
+   },
+   {  
+      "name":"Vivek Patel",
+      "university":"New York University",
+      "pokemon":"Rapidash"
+   },
+   {  
+      "name":"Alan Lin",
+      "university":"Boston College",
+      "pokemon":"Slowpoke"
+   },
+   {  
+      "name":"Alex Akers",
+      "university":"Columbia University",
+      "pokemon":"Slowbro"
+   },
+   {  
+      "name":"Alex Berke",
+      "university":"Brown University",
+      "pokemon":"Magnemite"
+   },
+   {  
+      "name":"Ananta Pandey",
+      "university":"Barnard College",
+      "pokemon":"Magneton"
+   },
+   {  
+      "name":"Andrew Aldridge",
+      "university":"University of Minnesota",
+      "pokemon":"Farfetchd"
+   },
+   {  
+      "name":"Basil Siddiqui",
+      "university":"Harvard University",
+      "pokemon":"Doduo"
+   },
+   {  
+      "name":"Ben Vishny",
+      "university":"Brown University",
+      "pokemon":"Dodrio"
+   },
+   {  
+      "name":"Carlos Gil",
+      "university":"Carnegie Mellon University",
+      "pokemon":"Seel"
+   },
+   {  
+      "name":"Charles Lehner",
+      "university":"University of Rochester",
+      "pokemon":"Dewgong"
+   },
+   {  
+      "name":"Chris Mulligan",
+      "university":"Columbia University",
+      "pokemon":"Grimer"
+   },
+   {  
+      "name":"Dan Kang",
+      "university":"Princeton University",
+      "pokemon":"Muk"
+   },
+   {  
+      "name":"Dan Mundy",
+      "university":"The College of New Jersey",
+      "pokemon":"Shellder"
+   },
+   {  
+      "name":"Daniel Borowski",
+      "university":"Rutgers University",
+      "pokemon":"Cloyster"
+   },
+   {  
+      "name":"Daria Jung",
+      "university":"Columbia University",
+      "pokemon":"Gastly"
+   },
+   {  
+      "name":"David Fontenot",
+      "university":"University of Michigan",
+      "pokemon":"Haunter"
+   },
+   {  
+      "name":"Eric Leong",
+      "university":"Cooper Union",
+      "pokemon":"Gengar"
+   },
+   {  
+      "name":"Jane Friedhoff",
+      "university":"Parsons (The New School For Design)",
+      "pokemon":"Onix"
+   },
+   {  
+      "name":"Jeremy Cimafonte",
+      "university":"School of the Museum of Fine Arts",
+      "pokemon":"Drowzee"
+   },
+   {  
+      "name":"Jesse Selover",
+      "university":"MIT",
+      "pokemon":"Hypno"
+   },
+   {  
+      "name":"Jordan Goldstein",
+      "university":"University of Maryland",
+      "pokemon":"Krabby"
+   },
+   {  
+      "name":"Joseph Long",
+      "university":"Pomona College",
+      "pokemon":"Kingler"
+   },
+   {  
+      "name":"Josh Matthews",
+      "university":"Rutgers University",
+      "pokemon":"Voltorb"
+   },
+   {  
+      "name":"Joshua Click",
+      "university":"New York University",
+      "pokemon":"Electrode"
+   },
+   {  
+      "name":"Ju Young Park",
+      "university":"New York University",
+      "pokemon":"Exeggcute"
+   },
+   {  
+      "name":"Kaitlin Postaikis",
+      "university":"Rutgers University",
+      "pokemon":"Exeggutor"
+   },
+   {  
+      "name":"Kaushal Parikh",
+      "university":"Rutgers University",
+      "pokemon":"Cubone"
+   },
+   {  
+      "name":"Kyle Petrovich",
+      "university":"Georgia Institute of Technology",
+      "pokemon":"Marowak"
+   },
+   {  
+      "name":"Maijid Moujalid",
+      "university":"Grinnell College",
+      "pokemon":"Hitmonlee"
+   },
+   {  
+      "name":"Morgante Pell",
+      "university":"NYU Abu Dhabi",
+      "pokemon":"Hitmonchan"
+   },
+   {  
+      "name":"Raj Vir",
+      "university":"University of Michigan",
+      "pokemon":"Lickitung"
+   },
+   {  
+      "name":"Ricardo Medina",
+      "university":"Brown University",
+      "pokemon":"Koffing"
+   },
+   {  
+      "name":"Richard Stewart",
+      "university":"University of Chicago",
+      "pokemon":"Weezing"
+   },
+   {  
+      "name":"Sana Malik",
+      "university":"University of Maryland – College Park",
+      "pokemon":"Rhyhorn"
+   },
+   {  
+      "name":"Sean Yeh",
+      "university":"The Juilliard School",
+      "pokemon":"Rhydon"
+   },
+   {  
+      "name":"Shin Yuan Clara Wu",
+      "university":"University of Pennsylvania",
+      "pokemon":"Chansey"
+   },
+   {  
+      "name":"Steve Gattuso",
+      "university":"University of Rochester",
+      "pokemon":"Tangela"
+   },
+   {  
+      "name":"Yamil Asusta",
+      "university":"University of Puerto Rico-Rio Piedras",
+      "pokemon":"Kangaskhan"
+   },
+   {  
+      "name":"Abhishek Gadiraju",
+      "university":"University of Pennsylvania",
+      "pokemon":"Horsea"
+   },
+   {  
+      "name":"Alex Wheeler",
+      "university":"Boston University",
+      "pokemon":"Seadra"
+   },
+   {  
+      "name":"Amelia Winger-Bearskin",
+      "university":"NYU TISCH-ITP",
+      "pokemon":"Goldeen"
+   },
+   {  
+      "name":"Calvin Chan",
+      "university":"UCLA",
+      "pokemon":"Seaking"
+   },
+   {  
+      "name":"Catherine Moresco",
+      "university":"University of Chicago",
+      "pokemon":"Staryu"
+   },
+   {  
+      "name":"David Lu",
+      "university":"Carnegie Mellon University",
+      "pokemon":"Starmie"
+   },
+   {  
+      "name":"Deepak Kumar",
+      "university":"University of Michigan",
+      "pokemon":"Mr-mime"
+   },
+   {  
+      "name":"Emily Zhang",
+      "university":"Massachusetts Institute of Technology",
+      "pokemon":"Scyther"
+   },
+   {  
+      "name":"Evan Casey",
+      "university":"Claremont McKenna College",
+      "pokemon":"Jynx"
+   },
+   {  
+      "name":"Garrett Parrish",
+      "university":"Harvard University",
+      "pokemon":"Electabuzz"
+   },
+   {  
+      "name":"Hanne Paine",
+      "university":"Stony Brook University",
+      "pokemon":"Magmar"
+   },
+   {  
+      "name":"Jamis Johnson",
+      "university":"Columbia University",
+      "pokemon":"Pinsir"
+   },
+   {  
+      "name":"Jennifer Nordquist",
+      "university":"University of Maryland",
+      "pokemon":"Tauros"
+   },
+   {  
+      "name":"Jian Shen Tan",
+      "university":"Brown University and RiSD",
+      "pokemon":"Magikarp"
+   },
+   {  
+      "name":"Jing Xiao",
+      "university":"Carnegie Mellon University",
+      "pokemon":"Gyarados"
+   },
+   {  
+      "name":"Kenny Song",
+      "university":"NYU Shanghai",
+      "pokemon":"Lapras"
+   },
+   {  
+      "name":"Kyle Johnson",
+      "university":"Rutgers New Brunswick",
+      "pokemon":"Ditto"
+   },
+   {  
+      "name":"Kyle Ryan",
+      "university":"University of Rochester",
+      "pokemon":"Eevee"
+   },
+   {  
+      "name":"Lisa Luo",
+      "university":"Dartmouth College",
+      "pokemon":"Vaporeon"
+   },
+   {  
+      "name":"Manuel Lopez",
+      "university":"Rutgers University",
+      "pokemon":"Jolteon"
+   },
+   {  
+      "name":"Maria van Keulen",
+      "university":"Columbia University",
+      "pokemon":"Flareon"
+   },
+   {  
+      "name":"Matt Condon",
+      "university":"Louisiana Tech University",
+      "pokemon":"Porygon"
+   },
+   {  
+      "name":"Matt Dahl",
+      "university":"Pomona College",
+      "pokemon":"Omanyte"
+   },
+   {  
+      "name":"Michael Garate",
+      "university":"NYU Gallatin",
+      "pokemon":"Omastar"
+   },
+   {  
+      "name":"Nina Freeman",
+      "university":"NYU Polytechnic School of Engineering",
+      "pokemon":"Kabuto"
+   },
+   {  
+      "name":"Patrick Facheris",
+      "university":"Columbia University",
+      "pokemon":"Kabutops"
+   },
+   {  
+      "name":"Quinn Liu",
+      "university":"Virginia Tech",
+      "pokemon":"Aerodactyl"
+   },
+   {  
+      "name":"Sam Agnew",
+      "university":"Rutgers University",
+      "pokemon":"Snorlax"
+   },
+   {  
+      "name":"Sandile Keswa",
+      "university":"Temple University",
+      "pokemon":"Articuno"
+   },
+   {  
+      "name":"Shyamal Ruparel",
+      "university":"University of Cincinnati",
+      "pokemon":"Zapdos"
+   },
+   {  
+      "name":"Sruti Modekurty",
+      "university":"Carnegie Mellon University",
+      "pokemon":"Moltres"
+   },
+   {  
+      "name":"Walter Menendez",
+      "university":"Massachusetts Institute of Technology",
+      "pokemon":"Dratini"
+   },
+   {  
+      "name":"Wayne Chang",
+      "university":"Rutgers University",
+      "pokemon":"Dragonair"
+   }
+]
