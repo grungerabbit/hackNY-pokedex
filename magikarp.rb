@@ -3,6 +3,7 @@ require 'open-uri'
 require 'pry'
 require 'json'
 require 'awesome_print'
+require 'sinatra'
 
 response = open 'http://hackny.org/a/2010/06/announcing-the-2010-hackny-fellows/'
 
@@ -35,4 +36,8 @@ fellow_hashes = fellow_rows.map do |fellow_row|
 	}
 end 
 
-binding.pry 
+get '/2010.json' do
+	fellow_hashes.to_json
+end
+
+# binding.pry 
