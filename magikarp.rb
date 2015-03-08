@@ -38,8 +38,6 @@ fellow_hashes_2010 = fellow_rows_2010.map do |fellow_row|
 	# company_name = company_td.children.children.text
 	university_name = university_td.children.text
 
-	poke_number += 1 
-
 	{
 		# company: company_name,
 		name: student_name,
@@ -58,8 +56,6 @@ fellow_hashes_2011 = fellow_rows_2011.map do |fellow_row|
 	student_name = student_td.children.text
 	university_name = university_td.children.text
 	# company_name = company_td.children.children[1].attributes["alt"].value
-
-	poke_number += 1 
 
 	{
 		# company: company_name,
@@ -102,6 +98,7 @@ fellow_hashes_2013 = fellow_rows_2013.map do |fellow_row|
 	# remove newline
 	student_name[0] = ""
 
+	
 	{
 		# company: company_name,
 		name: student_name,
@@ -132,17 +129,41 @@ fellow_hashes_2014.slice!(0); # delete empty header
 fellow_2010 = fellow_hashes_2010.sort_by do |fellow|
 	fellow[:name]
 end
+fellow_2010 = fellow_2010.map do |fellow|
+	poke_number += 1
+	fellow.merge!("number" => poke_number)
+end
+
 fellow_2011 = fellow_hashes_2011.sort_by do |fellow|
 	fellow[:name]
 end
+fellow_2011 = fellow_2011.map do |fellow|
+	poke_number += 1
+	fellow.merge!("number" => poke_number)
+end
+
 fellow_2012 = fellow_hashes_2012.sort_by do |fellow|
 	fellow[:name]
 end
+fellow_2012 = fellow_2012.map do |fellow|
+	poke_number += 1
+	fellow.merge!("number" => poke_number)
+end
+
 fellow_2013 = fellow_hashes_2013.sort_by do |fellow|
 	fellow[:name]
 end
+fellow_2013 = fellow_2013.map do |fellow|
+	poke_number += 1
+	fellow.merge!("number" => poke_number)
+end
+
 fellow_2014 = fellow_hashes_2014.sort_by do |fellow|
 	fellow[:name]
+end
+fellow_2014 = fellow_2014.map do |fellow|
+	poke_number += 1
+	fellow.merge!("number" => poke_number)
 end
 
 all_fellows = fellow_2010.concat(fellow_2011).concat(fellow_2012).concat(fellow_2013).concat(fellow_2014)
