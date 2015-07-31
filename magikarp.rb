@@ -11,20 +11,25 @@ response_2011 = open 'http://hackny.org/a/2011/06/class-of-2011-hackny-fellows/'
 response_2012 = open 'http://hackny.org/a/2012/06/class-of-2012-hackny-fellows/'
 response_2013 = open 'http://hackny.org/a/2013/06/hackny-announces-the-class-of-2013-hackny-fellows/'
 response_2014 = open 'http://hackny.org/a/2014/07/hackny-2014-fellowship-demofest-and-class-announcement/'
+response_2015 = open 'http://hackny.org/a/2015/06/announcing-the-class-of-2015-hackny-fellows/'
 
 class2010_document = Nokogiri::HTML response_2010 
 class2011_document = Nokogiri::HTML response_2011
 class2012_document = Nokogiri::HTML response_2012
 class2013_document = Nokogiri::HTML response_2013
 class2014_document = Nokogiri::HTML response_2014
+class2015_document = Nokogiri::HTML response_2015
 
 fellow_rows_2010 = class2010_document.css 'tr'
 fellow_rows_2011 = class2011_document.css 'tr'
 fellow_rows_2012 = class2012_document.css 'tr'
 fellow_rows_2013 = class2013_document.css 'tr'
 fellow_rows_2014 = class2014_document.css 'tr'
+fellow_rows_2015 = class2015_document.css 'tr td'
 
-poke_number = 0 
+#ap fellow_rows_2015
+
+poke_number = 0
 
 # 2010!!
 fellow_hashes_2010 = fellow_rows_2010.map do |fellow_row|
@@ -124,6 +129,24 @@ fellow_hashes_2014 = fellow_rows_2014.map do |fellow_row|
 	}
 end
 
+# 2015!!
+fellow_hashes_2015 = fellow_rows_2015[0...-2].map do |fellow_row, index|
+	row_data = fellow_row.css("p").select do |child|
+		child.text != ""
+	end
+
+	student_p, university_p = row_data
+	student_name = student_p.text
+	university_name = university_p.text
+
+	{
+		# company: company_name,
+		name: student_name,
+		university: university_name
+	}
+end
+
+
 fellow_hashes_2013.slice!(0); # delete empty header
 fellow_hashes_2014.slice!(0); # delete empty header
 
@@ -177,7 +200,15 @@ fellow_2014 = fellow_2014.map do |fellow|
 	fellow.merge!("pokemon" => response["name"])
 end
 
-all_fellows = fellow_2010.concat(fellow_2011).concat(fellow_2012).concat(fellow_2013).concat(fellow_2014)
+
+fellow_2015 = fellow_hashes_2015.map do |fellow|
+	poke_number += 1
+	# fellow.merge!("number" => poke_number)
+	response = HTTParty.get('http://pokeapi.co/api/v1/pokemon/' + poke_number.to_s + '/');
+	fellow.merge!("pokemon" => response["name"])
+end
+
+all_fellows = fellow_2010.concat(fellow_2011).concat(fellow_2012).concat(fellow_2013).concat(fellow_2014).concat(fellow_2015)
 
 get '/fellows.json' do
 	all_fellows.to_json

@@ -2,7 +2,7 @@
 hackNY Pokédex - generated JSON
 by Cheryl Wu (grungerabbit.com), hackNY Fellow 2012
 
-cohorts 2010 * 2011 * 2012 * 2013 * 2014
+cohorts 2010 * 2011 * 2012 * 2013 * 2014 * 2015
 ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ */
 
 [  
@@ -745,5 +745,175 @@ cohorts 2010 * 2011 * 2012 * 2013 * 2014
       "name":"Wayne Chang",
       "university":"Rutgers University",
       "pokemon":"Dragonair"
+   },
+   {  
+      "name":"Abhi Agarwal",
+      "university":"New York University",
+      "pokemon":"Dragonite"
+   },
+   {  
+      "name":"Abril Vela",
+      "university":"University of Michigan",
+      "pokemon":"Mewtwo"
+   },
+   {  
+      "name":"Amrit Ayalur",
+      "university":"University of California Berkeley",
+      "pokemon":"Mew"
+   },
+   {  
+      "name":"Brian Chuk",
+      "university":"New York University",
+      "pokemon":"Chikorita"
+   },
+   {  
+      "name":"Charles Lai",
+      "university":"Cornell University",
+      "pokemon":"Bayleef"
+   },
+   {  
+      "name":"Christopher Wan",
+      "university":"Yale University",
+      "pokemon":"Meganium"
+   },
+   {  
+      "name":"Cristopher Bello",
+      "university":"CUNY Kingsborough",
+      "pokemon":"Cyndaquil"
+   },
+   {  
+      "name":"Dan Cadden",
+      "university":"Temple University",
+      "pokemon":"Quilava"
+   },
+   {  
+      "name":"Emily Pakulski",
+      "university":"Columbia University",
+      "pokemon":"Typhlosion"
+   },
+   {  
+      "name":"Emily Pries",
+      "university":"Columbia University",
+      "pokemon":"Totodile"
+   },
+   {  
+      "name":"Faiq Raza",
+      "university":"Rutgers University",
+      "pokemon":"Croconaw"
+   },
+   {  
+      "name":"Harrison Liddiard",
+      "university":"University of California LA",
+      "pokemon":"Feraligatr"
+   },
+   {  
+      "name":"Janita Chalam",
+      "university":"Amherst College",
+      "pokemon":"Sentret"
+   },
+   {  
+      "name":"Jared Wright",
+      "university":"Drexel University",
+      "pokemon":"Furret"
+   },
+   {  
+      "name":"Keeyon Ebrahimi",
+      "university":"New York University",
+      "pokemon":"Hoothoot"
+   },
+   {  
+      "name":"Kevin Yeh",
+      "university":"University of Texas at Austin",
+      "pokemon":"Noctowl"
+   },
+   {  
+      "name":"Kimberly Leon",
+      "university":"Mass. Institute of Technology",
+      "pokemon":"Ledyba"
+   },
+   {  
+      "name":"Matt McNaughton",
+      "university":"Williams College",
+      "pokemon":"Ledian"
+   },
+   {  
+      "name":"Merry Mou",
+      "university":"Mass. Institute of Technology",
+      "pokemon":"Spinarak"
+   },
+   {  
+      "name":"Michelle Chandra",
+      "university":"New York University",
+      "pokemon":"Ariados"
+   },
+   {  
+      "name":"Nancy Wong",
+      "university":"University of Pennsylvania",
+      "pokemon":"Crobat"
+   },
+   {  
+      "name":"Niko Lazaris",
+      "university":"University of Texas at Austin",
+      "pokemon":"Chinchou"
+   },
+   {  
+      "name":"Oluwatosin Afolabi",
+      "university":"University of Nottingham",
+      "pokemon":"Lanturn"
+   },
+   {  
+      "name":"Rafael Palefsky-Smith",
+      "university":"Stanford University",
+      "pokemon":"Pichu"
+   },
+   {  
+      "name":"Ren Delos Reyes",
+      "university":"Smith College",
+      "pokemon":"Cleffa"
+   },
+   {  
+      "name":"Richard Chu",
+      "university":"Princeton University",
+      "pokemon":"Igglybuff"
+   },
+   {  
+      "name":"Rohan Mathur",
+      "university":"University of Illinois",
+      "pokemon":"Togepi"
+   },
+   {  
+      "name":"Ross Goodwin",
+      "university":"New York University",
+      "pokemon":"Togetic"
+   },
+   {  
+      "name":"Shashank Bhargava",
+      "university":"University of California Berkeley",
+      "pokemon":"Natu"
+   },
+   {  
+      "name":"Shehmeer Jiwani",
+      "university":"Georgia Institute of Technology",
+      "pokemon":"Xatu"
+   },
+   {  
+      "name":"Shloka Kini",
+      "university":"Columbia University",
+      "pokemon":"Mareep"
+   },
+   {  
+      "name":"Simon Ayzman",
+      "university":"Hunter College",
+      "pokemon":"Flaaffy"
+   },
+   {  
+      "name":"Valentin Perez",
+      "university":"Brown University",
+      "pokemon":"Ampharos"
+   },
+   {  
+      "name":"Yoni Nachmany",
+      "university":"University of Pennsylvania",
+      "pokemon":"Bellossom"
    }
 ]
