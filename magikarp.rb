@@ -24,8 +24,6 @@ fellow_rows_2012 = class2012_document.css 'tr'
 fellow_rows_2013 = class2013_document.css 'tr'
 fellow_rows_2014 = class2014_document.css 'tr'
 
-poke_number = 0
-
 # 2010!!
 fellow_hashes_2010 = fellow_rows_2010.map do |fellow_row|
 	row_data = fellow_row.children.select do |child|
@@ -124,18 +122,22 @@ fellow_hashes_2014 = fellow_rows_2014.map do |fellow_row|
 	}
 end
 
-fellow_hashes_2013.slice!(0); # delete empty header
-fellow_hashes_2014.slice!(0); # delete empty header
+fellow_hashes_2013.slice!(0) # delete empty header
+fellow_hashes_2014.slice!(0) # delete empty header
 
-fellows = fellow_hashes_2010 + fellow_hashes_2011 + fellow_hashes_2012 + fellow_hashes_2013 + fellow_hashes_2014
-fellows.sort_by! { |fellow| fellow[:name] }
+fellow_hashes = [fellow_hashes_2010, fellow_hashes_2011, fellow_hashes_2012, fellow_hashes_2013, fellow_hashes_2014]
 
-fellows.each_with_index do |fellow, index|
-	index += 1
-	response = HTTParty.get("http://pokeapi.co/api/v1/pokemon/#{index}/")
-	fellow[:pokemon] = response['name']
+pokemon_number = 1
+
+fellow_hashes.each do |hash|
+	hash.sort_by! { |fellow| fellow[:name] }
+	hash.each do |fellow|
+		response = HTTParty.get("http://pokeapi.co/api/v1/pokemon/#{pokemon_number}/")
+		fellow[:pokemon] = response['name']
+		pokemon_number += 1
+	end
 end
 
 get '/fellows.json' do
-	fellows.to_json
+	fellow_hashes.flatten.to_json
 end
